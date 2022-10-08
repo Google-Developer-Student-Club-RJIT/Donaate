@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+ width:'20%';
+ margin-right: 30%;
+}
+
+nav{
+    background: linear-gradient(#7f7f7a, #e4dad8);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 10px;
+    margin-right: 100px;
+    
+}
+
+nav ul li a{
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+
+}
+a.active,a:hover{
+    background:#888785;
+}
+
+.container{
+    display:flex;
+   margin-left: 1000px;
+   margin-top: 50px;
+   color: rgb(238, 232, 232);
+}
+
+.button{
+   margin-left: 1000px;
+    
+}
+
+.banner{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("/images/poor.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
