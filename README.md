@@ -31,6 +31,7 @@ This website is made for the people who want to donate to the needy people. It i
 
 This is a simple project that welcomes contributions. You can help this project by adding new features and fixing bugs that already exist.
 
+
 ## 📌Contributing Guidelines :
 <br>
 <h3>First read CONTRIBUTING.md</h3>
@@ -105,3 +106,5 @@ For any changes regarding the UI please follow the Figma link below!
 https://www.figma.com/file/Rx5leYNrKpx169bjG7loFi/Donaate?node-id=0%3A1
 
 
+Or follow this:
+<img align="right" alt="UI" src="Donaate-UI/Web UI.png" />
