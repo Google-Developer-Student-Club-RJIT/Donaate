@@ -4,9 +4,8 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: Poppins;
 }
-
-
 
 
 .maincontainer {
@@ -22,7 +21,7 @@
     width: 100%;
     height: auto;
     justify-content: space-between;
-    /* background-color: #c4d9f6; */
+    padding: 2rem;
 
 }
 
@@ -32,7 +31,6 @@
     justify-content: center;
     width: 20%;
     height: 'auto';
-    /* background-color: #f6dac4; */
     padding: 10px;
 }
 
@@ -43,24 +41,22 @@
 }
 
 .menucontainer {
+    margin-right: 10%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 50%;
+    justify-content:flex-end;
+    width: 40%;
     height: 'auto';
     /* background-color: #e0f6c4; */
 }
 
-ul {
-    flex-direction: row;
-}
-
-li {
+.menucontainer ul li {
     float: left;
     margin-left: 50px;
     list-style: none;
     color: black;
-    font-size: 15pt;
+    font-size: 1rem;
+    font-weight:500;
 }
 
 a {
@@ -74,55 +70,74 @@ li a:hover {
 
 /* second main div */
 .contentcontainer {
-     display: flex; 
+    display: flex; 
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
+    height: 85%;
     /* background-color: #87e111; */
     margin-bottom: 100px;
 }
 
 .quotecontainer {
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
-    width: 50%;
-    height: 400px;
-    /* background-color: #f6dac4; */
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     padding: 10px;
 }
 
 .taglinecontainer {
+    width: 85%;
     display: flex;
     justify-content: center;
     /* background: brown; */
 }
+.taglinecontainer--invcomma{
+    position:absolute;
+    left: 11rem;
+    top: 8rem;
+    font-family:"Passion One", cursive;
+    transform: scale(-1,1);
+    color: #5f9e6a6d;
+    font-size: 14rem;
+}
+.taglinecontainer--desc{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 6rem;
+}
 .btnandnamemain{
     display: flex;
-    width:100%;
+    width:75%;
     /* background: blueviolet; */
     align-items: center;
 }
+.btn-container{
+    width: 100%;
+}
 .button{
-    background-color: #4CAF50;
+    background-color: #055c14;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1rem 4rem;
     border-radius: 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     cursor: pointer;
-    
 }
-
+.button:hover{
+    background-color: #5F9E69;
+    font-weight: bold;
+}
 
 .poetname{
     display: flex;
-    width:50%;
+    width:60%;
     height:200px;
     /* background: rgb(192, 116, 116); */
     align-items: top;
@@ -131,16 +146,21 @@ li a:hover {
     border-style: solid;
     border-width: 2px 0px 0px 0px;
 }
+.poetname>p{
+    padding-top: 1rem;
+    font-size: larger;
+    font-family: 'Kaushan Script', cursive;
+}
 
 .picturecontainer {
     display: flex;
     width: 60%;
-    height: auto;
-     /* background-color: #e0f6c4; */ 
+    height: 100%;
+    justify-content: center;
 }
 
 .picturestyle {
-    width: 400px;
-    height: auto;
-    margin-left: 200px;
+    width: 70%;
+    height: 100%;
+    /* margin-left: 200px; */
 }
