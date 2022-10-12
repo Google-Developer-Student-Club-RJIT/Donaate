@@ -147,39 +147,65 @@ li a:hover {
 
 /* footer copyright  */
 .container-fluid2{
-    text-align: center;
-    background-color:#4CAF50 ;
-    color: white;
+    position: absolute;
+    width: 100%;
     height: 50px;
-    position: relative;
+    left: 0px;
+    top: 5123px;
+    text-align: center;
+    background: #094513;
 }
 .container-fluid2 p{
     position: relative;
     top: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #C5CFC7;
 }
 
 /* footer above copyright */
 .container-fluid1{
-    background-color:#C4F6CC  ;
-    height: 120px;
-    margin-top: 10px;
-}
+    position: absolute;
+    width: 100%;
+    height: 209px;
+    left: 0px;
+    top: 4964px;
+
+    background: #5F9E69;
+ }
 .container-fluid1 .logocontainer{
-    position: relative;
-    top: 35px;
-    vertical-align: baseline;
+    position: absolute;
+    width: 217px;
+    height: 69px;
+    left: 104px;
+    top: 42px;
+    color: #DEF8E2;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 69px;
+}
+
+.footer-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 87px;
+
+    position: absolute;
+    width: 100%;
+    height: 36px;
+    left: 478px;
+    top: 64px;
 
 }
-.footer-buttons{
-    position: absolute;
-    right: 100px;
-    margin-top: 6px;
-    vertical-align: baseline;
-}
 .footer-buttons a{
-   margin:50px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   color: #4CAF50;
-   font-size: larger;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #DEF8E2;
 }
