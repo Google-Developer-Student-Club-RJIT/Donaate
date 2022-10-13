@@ -26,7 +26,7 @@
     width: 100%;
     height: auto;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 2rem 1rem;
 
 }
 
@@ -38,7 +38,9 @@
     height: 'auto';
     padding: 10px;
 }
-
+.logocontainer img{
+    opacity: 0.6;
+}
 .imgstyle {
     width: 150px;
     height: auto;
@@ -50,7 +52,7 @@
     display: flex;
     align-items: center;
     justify-content:flex-end;
-    width: 40%;
+    width: 30%;
     height: 'auto';
     /* background-color: #e0f6c4; */
 }
@@ -65,6 +67,7 @@
 }
 
 a {
+    font-weight: 600;
     text-decoration: none;
     color: black;
 }
@@ -100,21 +103,20 @@ a {
     /* background: brown; */
 }
 .taglinecontainer--invcomma{
-    position:absolute;
-    left: 9rem;
-    top: 8rem;
-    font-family:"Passion One", cursive;
-    transform: scale(-1,1);
-    color: #90DA9D;
-    z-index: 1;
-    font-size: 14rem;
+    position: absolute;
+    left: 7rem;
+    top: 10rem;
+}
+.taglinecontainer--invcomma img{
+    width: 2.5rem;
 }
 .taglinecontainer--desc{
     z-index: 10;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #07360F;
-    font-weight: bold;
+    font-weight: 600;
     margin: 1rem 2rem;
+    line-height: 50px;
 }
 .btnandnamemain{
     display: flex;
@@ -124,13 +126,13 @@ a {
     justify-content: flex-start;
 }
 .btn-container{
-    width: 50%;
+    width: 42%;
 }
 .button{
     background-color: #055c14;
     border: none;
     color: white;
-    padding: 1rem 4rem;
+    padding: 1rem 2.5rem;
     border-radius: 12px;
     text-align: center;
     text-decoration: none;
@@ -145,6 +147,8 @@ a {
 }
 
 .poetname{
+    font-style: italic;
+    color:#414D42;
     display: flex;
     width:35%;
     height:200px;
@@ -156,7 +160,7 @@ a {
 }
 .poetname>p{
     padding-top: 1rem;
-    font-size: larger;
+    font-size: 1.5rem;
     font-family: Mazius;
 }
 
@@ -164,11 +168,11 @@ a {
     display: flex;
     width: 60%;
     height: 120%;
-    justify-content: center;
+    justify-content: left;
 }
 
 .picturestyle {
-    width: 70%;
+    width: 80%;
     height: 91%;
     /* margin-left: 200px; */
 }
