@@ -1,12 +1,16 @@
+@font-face {
+    font-family: Mazius;
+    src: url(./Donaate-UI/MAZIUSREVIEW20.09-Italic.otf);
+}
+
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: Poppins;
 }
-
-
 
 
 .maincontainer {
@@ -22,7 +26,7 @@
     width: 100%;
     height: auto;
     justify-content: space-between;
-    /* background-color: #c4d9f6; */
+    padding: 2rem 1rem;
 
 }
 
@@ -32,10 +36,11 @@
     justify-content: center;
     width: 20%;
     height: 'auto';
-    /* background-color: #f6dac4; */
     padding: 10px;
 }
-
+.logocontainer img{
+    opacity: 0.6;
+}
 .imgstyle {
     width: 150px;
     height: auto;
@@ -43,104 +48,131 @@
 }
 
 .menucontainer {
+    margin-right: 10%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 50%;
+    justify-content:flex-end;
+    width: 30%;
     height: 'auto';
     /* background-color: #e0f6c4; */
 }
 
-ul {
-    flex-direction: row;
-}
-
-li {
+.menucontainer ul li {
     float: left;
     margin-left: 50px;
     list-style: none;
     color: black;
-    font-size: 15pt;
+    font-size: 1rem;
+    font-weight:500;
 }
 
 a {
+    font-weight: 600;
     text-decoration: none;
     color: black;
 }
 
-li a:hover {
+.menucontainer li a:hover {
     color: #5F9E69;
 }
 
 /* second main div */
 .contentcontainer {
-     display: flex; 
+    display: flex; 
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
+    height: 85%;
     /* background-color: #87e111; */
     margin-bottom: 100px;
 }
 
 .quotecontainer {
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
-    width: 50%;
-    height: 400px;
-    /* background-color: #f6dac4; */
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
     padding: 10px;
 }
 
 .taglinecontainer {
+    width: 85%;
     display: flex;
     justify-content: center;
     /* background: brown; */
 }
+.taglinecontainer--invcomma{
+    position: absolute;
+    left: 7rem;
+    top: 10rem;
+}
+.taglinecontainer--invcomma img{
+    width: 2.5rem;
+}
+.taglinecontainer--desc{
+    z-index: 10;
+    font-size: 2rem;
+    color: #07360F;
+    font-weight: 600;
+    margin: 1rem 2rem;
+    line-height: 50px;
+}
 .btnandnamemain{
     display: flex;
-    width:100%;
+    width:82%;
     /* background: blueviolet; */
     align-items: center;
+    justify-content: flex-start;
+}
+.btn-container{
+    width: 42%;
 }
 .button{
-    background-color: #4CAF50;
+    background-color: #055c14;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1rem 2.5rem;
     border-radius: 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     cursor: pointer;
-    
+}
+.button:hover{
+    background-color: #5F9E69;
+    font-weight: bold;
 }
 
-
 .poetname{
+    font-style: italic;
+    color:#414D42;
     display: flex;
-    width:50%;
+    width:35%;
     height:200px;
-    /* background: rgb(192, 116, 116); */
     align-items: top;
     justify-content: right;
     border-top: 5px;
     border-style: solid;
     border-width: 2px 0px 0px 0px;
 }
+.poetname>p{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-family: Mazius;
+}
 
 .picturecontainer {
     display: flex;
     width: 60%;
-    height: auto;
-     /* background-color: #e0f6c4; */ 
+    height: 120%;
+    justify-content: left;
 }
 
 .picturestyle {
-    width: 400px;
-    height: auto;
-    margin-left: 200px;
+    width: 80%;
+    height: 91%;
+    /* margin-left: 200px; */
 }
