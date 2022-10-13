@@ -13,13 +13,13 @@
 }
 
 
-.maincontainer {
+.mainContainer {
     width: 100%;
     height: 700px;
     background-color: #C4F6CC;
 }
 
-.navcontainer {
+.navContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@
 
 }
 
-.logocontainer {
+.logoContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,16 +38,16 @@
     height: 'auto';
     padding: 10px;
 }
-.logocontainer img{
+.logoContainer img{
     opacity: 0.6;
 }
-.imgstyle {
+.imgStyle {
     width: 150px;
     height: auto;
     filter: drop-shadow(0 0 0 #5F9E69);
 }
 
-.menucontainer {
+.menuContainer {
     margin-right: 10%;
     display: flex;
     align-items: center;
@@ -57,7 +57,7 @@
     /* background-color: #e0f6c4; */
 }
 
-.menucontainer ul li {
+.menuContainer ul li {
     float: left;
     margin-left: 50px;
     list-style: none;
@@ -72,12 +72,12 @@ a {
     color: black;
 }
 
-.menucontainer li a:hover {
+.menuContainer li a:hover {
     color: #5F9E69;
 }
 
 /* second main div */
-.contentcontainer {
+.contentContainer {
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -87,7 +87,7 @@ a {
     margin-bottom: 100px;
 }
 
-.quotecontainer {
+.quoteContainer {
     width: 80%;
     height: 80%;
     display: flex;
@@ -96,28 +96,27 @@ a {
     padding: 10px;
 }
 
-.taglinecontainer {
+.tagLineContainer {
     width: 85%;
     z-index: 1;
 }
-.taglinecontainer--invcomma{
+.tagLineContainer--invcomma{
     position: absolute;
     z-index: -1;
 }
-.taglinecontainer--invcomma img{
+.tagLineContainer--invcomma img{
     width: 2.5rem;
 }
-.taglinecontainer--desc{
+.tagLineContainer--desc{
     font-size: 2rem;
     color: #07360F;
     font-weight: 600;
     margin: 1rem 2rem;
     line-height: 50px;
 }
-.btnandnamemain{
+.btnAndNameMain{
     display: flex;
     width:82%;
-    /* background: blueviolet; */
     align-items: center;
     justify-content: flex-start;
 }
@@ -134,7 +133,6 @@ a {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    /* margin-left: 100px; */
     cursor: pointer;
 }
 .button:hover{
@@ -142,7 +140,7 @@ a {
     font-weight: bold;
 }
 
-.poetname{
+.poetName{
     font-style: italic;
     color:#414D42;
     display: flex;
@@ -154,20 +152,20 @@ a {
     border-style: solid;
     border-width: 2px 0px 0px 0px;
 }
-.poetname>p{
+.poetName>p{
     padding-top: 1rem;
     font-size: 1.5rem;
     font-family: Mazius;
 }
 
-.picturecontainer {
+.pictureContainer {
     display: flex;
     width: 60%;
     height: 120%;
     justify-content: left;
 }
 
-.picturestyle {
+.pictureStyle {
     width: 80%;
     height: 91%;
     /* margin-left: 200px; */
