@@ -1,142 +1,168 @@
+@font-face {
+    font-family: Mazius;
+    src: url(./Donaate-UI/MAZIUSREVIEW20.09-Italic.otf);
+}
+
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: Poppins;
 }
 
 
-
-
-.maincontainer {
+.mainContainer {
     width: 100%;
     height: 700px;
     background-color: #C4F6CC;
 }
 
-.navcontainer {
+.navContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: auto;
     justify-content: space-between;
-    /* background-color: #c4d9f6; */
+    padding: 2rem 1rem;
 
 }
 
-.logocontainer {
+.logoContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 20%;
     height: 'auto';
-    /* background-color: #f6dac4; */
     padding: 10px;
 }
-
-.imgstyle {
+.logoContainer img{
+    opacity: 0.6;
+}
+.imgStyle {
     width: 150px;
     height: auto;
     filter: drop-shadow(0 0 0 #5F9E69);
 }
 
-.menucontainer {
+.menuContainer {
+    margin-right: 10%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 50%;
+    justify-content:flex-end;
+    width: 30%;
     height: 'auto';
     /* background-color: #e0f6c4; */
 }
 
-ul {
-    flex-direction: row;
-}
-
-li {
+.menuContainer ul li {
     float: left;
     margin-left: 50px;
     list-style: none;
     color: black;
-    font-size: 15pt;
+    font-size: 1rem;
+    font-weight:500;
 }
 
 a {
+    font-weight: 600;
     text-decoration: none;
     color: black;
 }
 
-li a:hover {
+.menuContainer li a:hover {
     color: #5F9E69;
 }
 
 /* second main div */
-.contentcontainer {
-     display: flex; 
+.contentContainer {
+    display: flex; 
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
+    height: 85%;
     /* background-color: #87e111; */
     margin-bottom: 100px;
 }
 
-.quotecontainer {
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
-    width: 50%;
-    height: 400px;
-    /* background-color: #f6dac4; */
+.quoteContainer {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
     padding: 10px;
 }
 
-.taglinecontainer {
-    display: flex;
-    justify-content: center;
-    /* background: brown; */
+.tagLineContainer {
+    width: 85%;
+    z-index: 1;
 }
-.btnandnamemain{
+.tagLineContainer--invcomma{
+    position: absolute;
+    z-index: -1;
+}
+.tagLineContainer--invcomma img{
+    width: 2.5rem;
+}
+.tagLineContainer--desc{
+    font-size: 2rem;
+    color: #07360F;
+    font-weight: 600;
+    margin: 1rem 2rem;
+    line-height: 50px;
+}
+.btnAndNameMain{
     display: flex;
-    width:100%;
-    /* background: blueviolet; */
+    width:82%;
     align-items: center;
+    justify-content: flex-start;
+}
+.btn-container{
+    width: 42%;
 }
 .button{
-    background-color: #4CAF50;
+    background-color: #055c14;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1rem 2.5rem;
     border-radius: 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 100px;
     cursor: pointer;
-    
+}
+.button:hover{
+    background-color: #5F9E69;
+    font-weight: bold;
 }
 
-
-.poetname{
+.poetName{
+    font-style: italic;
+    color:#414D42;
     display: flex;
-    width:50%;
+    width:35%;
     height:200px;
-    /* background: rgb(192, 116, 116); */
     align-items: top;
     justify-content: right;
     border-top: 5px;
     border-style: solid;
     border-width: 2px 0px 0px 0px;
 }
+.poetName>p{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-family: Mazius;
+}
 
-.picturecontainer {
+.pictureContainer {
     display: flex;
     width: 60%;
-    height: auto;
-     /* background-color: #e0f6c4; */ 
+    height: 120%;
+    justify-content: left;
 }
 
 .picturestyle {
@@ -205,3 +231,10 @@ li a:hover {
     line-height: 36px;
     color: #DEF8E2;
 }
+
+.pictureStyle {
+    width: 80%;
+    height: 91%;
+    /* margin-left: 200px; */
+}
+
