@@ -179,10 +179,6 @@ li a:hover {
     left: 104px;
     top: 42px;
     color: #DEF8E2;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 46px;
     line-height: 69px;
 }
 
@@ -204,8 +200,8 @@ li a:hover {
 .footer-buttons a{
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
+    /* font-weight: 500; */
+    font-size: 22px;
     line-height: 36px;
     color: #DEF8E2;
 }
