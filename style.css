@@ -3,11 +3,6 @@
 
 
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,700&family=Poppins:wght@300;400;500;600&display=swap');
-
-
 * {
     padding: 0;
     margin: 0;
@@ -15,7 +10,10 @@
     list-style: none;
     box-sizing: border-box;
 }
-
+ @font-face {
+      font-family: Mazius;
+      src: url(./Donaate-UI/MAZIUSREVIEW20.09-Italic.otf);
+  }
 
 .mainContainer {
     width: 100%;
@@ -145,10 +143,7 @@ a {
     
 .faq{
       display:flex ;}
- @font-face {
-      font-family: Mazius;
-      src: url(./Donaate-UI/MAZIUSREVIEW20.09-Italic.otf);
-  }
+
 
 .FAQ{
   font-size: 30px;
