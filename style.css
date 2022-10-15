@@ -2,153 +2,6 @@
 
 
 
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-
-
-
-
-.maincontainer {
-    width: 100%;
-    height: 700px;
-    background-color: #C4F6CC;
-}
-
-.navcontainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    justify-content: space-between;
-    /* background-color: #c4d9f6; */
-
-}
-
-.logocontainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20%;
-    height: 'auto';
-    /* background-color: #f6dac4; */
-    padding: 10px;
-}
-
-.imgstyle {
-    width: 150px;
-    height: auto;
-    filter: drop-shadow(0 0 0 #5F9E69);
-}
-
-.menucontainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    height: 'auto';
-    /* background-color: #e0f6c4; */
-}
-
-ul {
-    flex-direction: row;
-}
-
-li {
-    float: left;
-    margin-left: 50px;
-    list-style: none;
-    color: black;
-    font-size: 15pt;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-li a:hover {
-    color: #5F9E69;
-}
-
-/* second main div */
-.contentcontainer {
-     display: flex; 
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    /* background-color: #87e111; */
-    margin-bottom: 100px;
-}
-
-.quotecontainer {
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
-    width: 50%;
-    height: 400px;
-    /* background-color: #f6dac4; */
-    padding: 10px;
-}
-
-.taglinecontainer {
-    display: flex;
-    justify-content: center;
-    /* background: brown; */
-}
-.btnandnamemain{
-    display: flex;
-    width:100%;
-    /* background: blueviolet; */
-    align-items: center;
-}
-.button{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    border-radius: 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 100px;
-    cursor: pointer;
-    
-}
-
-
-.poetname{
-    display: flex;
-    width:50%;
-    height:200px;
-    /* background: rgb(192, 116, 116); */
-    align-items: top;
-    justify-content: right;
-    border-top: 5px;
-    border-style: solid;
-    border-width: 2px 0px 0px 0px;
-}
-
-.picturecontainer {
-    display: flex;
-    width: 60%;
-    height: auto;
-     /* background-color: #e0f6c4; */ 
-}
-
-.picturestyle {
-    width: 400px;
-    height: auto;
-    margin-left: 200px;
-}
-
 
 .faq{
     display:flex ;
@@ -161,12 +14,13 @@ li a:hover {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   size: 46px;
-  width:60% ;
+  width:40% ;
 }
 .question{
-  margin-left: 40%;
+  margin-left: 30%;
   margin-top:20px;
   font-family: 'poppins',sans-serif;
+  width: 60%;  
 
 
 }
