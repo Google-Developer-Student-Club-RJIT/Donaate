@@ -497,6 +497,7 @@ a {
     margin-bottom: 200px;
 }
 
+
 .contactcontainer {
     display: flex;
     justify-content: center;
@@ -507,6 +508,65 @@ a {
     height: 400px;
 }
 
+.container-fluid1{
+    position: absolute;
+    width: 100%;
+    height: 209px;
+    left: 0px;
+    top: 4964px;
+
+    background: #5F9E69;
+ }
+.container-fluid1 .logocontainer{
+    position: absolute;
+    width: 217px;
+    height: 69px;
+    left: 104px;
+    top: 43px;
+    color: #DEF8E2;
+    line-height: 69px;
+}
+
+.footer-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 87px;
+
+    position: absolute;
+    width: 100%;
+    height: 36px;
+    left: 478px;
+    top: 64px;
+
+}
+.footer-buttons a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #DEF8E2;
+}
+.container-fluid2{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 5123px;
+    text-align: center;
+    background: #094513;
+}
+.container-fluid2 p{
+    position: relative;
+    top: 15px;
+    font-family: 'Poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #C5CFC7;
+}
+
+/* .contactmaincontainer{
+    background-color: darkmagenta;
 .greenbox {
     width:90%;
     height:auto;
