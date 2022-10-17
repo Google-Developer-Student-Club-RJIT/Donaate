@@ -747,6 +747,8 @@ margin-right: 10px;
    margin-left: 40px;
    margin-right: 10px;
    
+   
+   
 }
 .question hr{
     width: 100%;
@@ -759,14 +761,14 @@ margin-right: 10px;
     font-size: 15px;
     display: flex;
     margin-top: 20px;
-    margin-left: 40px;
+    justify-content: space-between;
     
 }
 
 
 
 .btn-1{
-    margin-left:100px;
+
     background-color: transparent;
     border: none;
     cursor: pointer;
