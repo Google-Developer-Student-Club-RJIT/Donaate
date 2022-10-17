@@ -711,14 +711,14 @@ body{
 
 .faq{
     display:flex ;
-    
+        
 }
 .FAQ{
     position: absolute;
-    width: 45%;
+    width: 30%;
     font-size: 100%;
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 100px;
     
     font-family:'Poppins';
 
@@ -727,15 +727,16 @@ body{
   margin-left: 60%;
   margin-top:30px;
   font-family: 'poppins',sans-serif;
-  margin-right: 30px;
-
-
+  margin-right: 8%;
+  width: 70%;
 }
 .paragraph{
 margin-bottom: 20px;
 width: 95%;
 font-size: 15px;
 margin-left: 40px;
+display: none;
+margin-right: 10px;
 
 }
 .question-1{
@@ -744,6 +745,8 @@ margin-left: 40px;
    margin-bottom:20px;
    margin-top: 20px;
    margin-left: 40px;
+   margin-right: 10px;
+   
 }
 .question hr{
     width: 100%;
@@ -770,7 +773,7 @@ margin-left: 40px;
     font-size: 40PX;
 }
 .btn-2{
-     margin-left: 180px;
+     margin-left: 85px;
      background-color: transparent;
      border: none;
      cursor: pointer;
