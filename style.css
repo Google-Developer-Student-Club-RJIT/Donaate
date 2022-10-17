@@ -705,4 +705,75 @@ body{
     font-size: 18px;
     font-weight: 600px;
     color: #5F9E69;
+
+}
+
+
+.faq{
+    display:flex ;
+    
+}
+.FAQ{
+    position: absolute;
+    width: 45%;
+    font-size: 100%;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+    font-family:'Poppins';
+
+}
+.question{
+  margin-left: 60%;
+  margin-top:30px;
+  font-family: 'poppins',sans-serif;
+  margin-right: 30px;
+
+
+}
+.paragraph{
+margin-bottom: 20px;
+width: 95%;
+font-size: 15px;
+margin-left: 40px;
+
+}
+.question-1{
+   display:flex;
+   font-size: 15px;
+   margin-bottom:20px;
+   margin-top: 20px;
+   margin-left: 40px;
+}
+.question hr{
+    width: 100%;
+
+}
+
+
+
+.question-2{
+    font-size: 15px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+
+
+
+.btn-1{
+    margin-left:100px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 40PX;
+}
+.btn-2{
+     margin-left: 180px;
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+     font-size: 40px;
+
 }
