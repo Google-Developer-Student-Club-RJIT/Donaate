@@ -15,6 +15,11 @@
     /* text-decoration: none; */
     list-style: none;
     box-sizing: border-box;
+
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 
@@ -46,6 +51,7 @@
 
 .logoContainer img {
     opacity: 0.6;
+    filter: invert(15%);
 }
 
 .imgStyle {
@@ -55,7 +61,7 @@
 }
 
 .menuContainer {
-    margin-right: 10%;
+    margin-right: 9%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -73,10 +79,13 @@
     font-weight: 500;
 }
 
-a {
-    font-weight: 600;
+.menuContainer a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     text-decoration: none;
     color: black;
+    font-size: 1.2rem;
+    padding: 7px;
 }
 
 .menuContainer li a:hover {
@@ -95,7 +104,7 @@ a {
 }
 
 .quoteContainer {
-    width: 80%;
+    width: 77%;
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -104,6 +113,7 @@ a {
 }
 
 .tagLineContainer {
+    font-family: 'Poppins', sans-serif;
     width: 85%;
     z-index: 1;
 }
@@ -111,6 +121,8 @@ a {
 .tagLineContainer--invcomma {
     position: absolute;
     z-index: -1;
+    display: block;
+    margin-left: -12px;
 }
 
 .tagLineContainer--invcomma img {
@@ -122,6 +134,7 @@ a {
     color: #07360F;
     font-weight: 600;
     margin: 1rem 2rem;
+    margin-top: 31px;
     line-height: 50px;
 }
 
@@ -137,15 +150,16 @@ a {
 }
 
 .button {
-    background-color: #055c14;
+    background-color: #197327;
     border: none;
     color: white;
-    padding: 1rem 2.5rem;
-    border-radius: 12px;
+    padding: 15px 32px;
+    border-radius: 8px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-left: 16px;
     cursor: pointer;
 }
 
@@ -158,8 +172,9 @@ a {
     font-style: italic;
     color: #414D42;
     display: flex;
-    width: 35%;
+    width: 28%;
     height: 200px;
+    margin-left: 61px;
     align-items: top;
     justify-content: right;
     border-top: 5px;
@@ -346,10 +361,22 @@ a {
 }
 
 .fourthcontainer {
+
     width: 100%;
-    height: 650px;
+    height: 750px;
     background-color: #C4F6CC;
 
+}
+
+@media (max-width:880px){
+    .containerD{
+        display: flex;
+        flex-direction: column;
+    }
+    .fourthcontainer{
+        height: 1000px;
+    }
+   
 }
 
 .containerA {
@@ -413,32 +440,37 @@ a {
 
 .Astyle {
     color: #07360F;
-    margin-left: 200px;
+    text-align: center;
     font-family: 'Noto Serif Display', serif;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 2rem;
     font-weight: 500px;
 }
 
 .Bstyle {
     color: #175F23;
-    margin-left: 100px;
+    display: flex;
+    text-align: center;
+  justify-content: center;
+
     font-family: 'Noto Serif Display', serif;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    line-height: 10px;
+    line-height: 1.4rem;
     font-weight: 600px;
 }
 
 .Cstyle {
     color: #0423098A;
-    margin-left: 100px;
+    
     font-family: 'Noto Serif Display', serif;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 22px;
     font-weight: 300px;
+   text-align: center;
+
 }
 
 .arrowstyle {
@@ -456,25 +488,32 @@ a {
 .Dstyle {
     color: #07360F;
     margin-top: 100px;
+    text-align: center;
     font-family: 'Noto Serif Display', serif;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1rem;
+    
     font-weight: 500px;
 
 }
 
 .Estyle {
     color: #175F23;
+    text-align: center;   display: flex;
+    text-align: center;
+  justify-content: center;
     font-family: 'Noto Serif Display', serif;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    line-height: 10px;
+    line-height: 1.4rem;
     font-weight: 600px;
 }
 
 .Fstyle {
     color: #0423098A;
+    display: flex;
+    text-align: center;
+  justify-content: center;
     font-family: 'Noto Serif Display', serif;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
