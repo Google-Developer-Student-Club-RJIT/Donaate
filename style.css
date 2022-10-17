@@ -6,7 +6,9 @@
     src: url(./Donaate-UI/MAZIUSREVIEW20.09-Italic.otf);
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 * {
