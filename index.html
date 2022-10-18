@@ -168,7 +168,59 @@
       </div>
   </div>
 </div>
+<!-- FAQ starts here -->
+<div class="faq">
+  <div class="FAQ">
+    <h1>
+      Frequently asked questions
+    </h1>
+  </div>
+  <div class="question">
+    <hr>
+    
+    <div class="question-2" "="">
+      <h2>Can you volunteer in this program</h2>
+      <button id="button" class="btn-1">+</button>
+    </div>
+    <div id="paragraph" class="paragraph">
+      <p>
+        Thankyou for your intrest in volunteering with our organisation. At
+        this time 
+        we do not have any volunteering oppurtunities available. please
+        check back at a later date
+        a later date
+      </p>
+    </div>
+    <hr>
+    
+    <div class="question-2 " "="">
+      <h2>How do i create an account</h2>
+      <button id="btn-2" class="btn-2">+</button>
+    </div>
+    <div id="paragraph-2" class="paragraph">
+      <p>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quae recusandae
+        quidem fugit earum eum nam ea ex natus. Quia laboriosam voluptas adipisci 
+        ducimus sapiente quos hic sunt expedita cupiditate, animi sed aliquid 
+      </p>
+    </div>
+   <hr>
+    <div class="question-2">
+      <h2>How do i create an account</h2>
+      <button id="btn-3" class="btn-2">+</button>
+    </div>
 
+    <div id="paragraph-3" class="paragraph">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis facere 
+        temporibus adipisci iste deserunt ut consequatur odit impedit libero 
+      </p>
+    </div>
+    <hr>
+    
+  </div>
+</div>
+<!-- FAQ ends here -->
  <!-- contact starts here  -->
  <div class="contactcontainer">
   <div class="greenbox">
@@ -209,6 +261,52 @@
 
 </div>
 
+
+<script type="text/javascript">
+  document.getElementById("button").onclick=(event)=>{
+    let k = document.getElementById("paragraph")
+
+    if (k.style.display==="none"){
+      k.style.display="block";
+      document.getElementById("button").innerHTML="-";}
+    
+    else{
+      k.style.display="none";
+      document.getElementById("button").innerHTML="+";  
+    }
+  }
+
+
+
+  document.getElementById("btn-2").onclick=(event)=>{
+    let k = document.getElementById("paragraph-2")
+
+    if (k.style.display==="none"){
+      k.style.display="block";
+      document.getElementById("btn-2").innerHTML="-";}
+    
+    else{
+      k.style.display="none";
+      document.getElementById("btn-2").innerHTML="+";
+    }
+  }
+
+  document.getElementById("btn-3").onclick=(event)=>{
+    let k = document.getElementById("paragraph-3")
+
+    if (k.style.display==="none"){
+      k.style.display="block";
+      document.getElementById("btn-3").innerHTML="-";}
+    
+    else{
+      k.style.display="none";
+      document.getElementById("btn-3").innerHTML="+";
+    }
+  }
+
+
+
+</script>
 
   </body>
 
