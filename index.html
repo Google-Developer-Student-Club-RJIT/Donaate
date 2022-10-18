@@ -15,16 +15,17 @@
   </head>
 
   <body>
-    <div class="mainContainer">
+    <div id="mainContainer">
       <div class="navContainer">
         <div class="logoContainer">
           <img src="Donaate-UI/Slider 3.png" class="imgStyle" />
         </div>
         <div class="menuContainer">
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Donation</a></li>
-            <li><a href="#">FAQs</a></li>
+            <li id="inactive"><a href="#mainContainer">Home</a></li>
+            <li><a href="#secondmaincontainer">About</a></li>
+            <li><a href="#fourthcontainer">Donation</a></li>
+            <li><a href="#FAQcontainer">FAQs</a></li>
           </ul>
         </div>
       </div>
@@ -42,7 +43,7 @@
           </div>
           <div class="btnAndNameMain">
             <div class="btn-container">
-              <button class="button">Donate Now</button>
+              <button class="button" onclick="window.location.href = '#fourthcontainer';">Donate Now</button>
             </div>
             <div class="poetName">
               <p><i>- Kathy Calvin</i></p>
@@ -56,7 +57,7 @@
     </div>
 
 <!-- about section starts -->
-<div class="secondmaincontainer">
+<div id="secondmaincontainer">
   <section id="about">
       <div id="about" class="fullaboutcontainer">
           <div class="aboutheadcontainer">
@@ -117,7 +118,7 @@
 
 <!--  starts -->
 
-<div class="fourthcontainer">
+<div id="fourthcontainer">
   <div class="containerA">
       <img src="/Donaate-UI/Elements/Star.svg" class="starstyle" />
       <div class="donatestyle">
@@ -254,6 +255,12 @@
   </div>
 </div>
 
+<div id="FAQcontainer">
+
+
+
+</div>
+
 
 <script type="text/javascript">
   document.getElementById("button").onclick=(event)=>{
@@ -297,7 +304,10 @@
     }
   }
 
-
+  let inactive = document.getElementById("inactive");
+  inactive.addEventListener("click", function(event){
+    event.preventDefault()
+})
 
 </script>
 
