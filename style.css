@@ -375,9 +375,15 @@ body{
 }
 
 .arrowstyle1 {
-    width: 350px;
-    height: 100px;
+    position: relative;
+    left: -20px;    
 }
+
+.arrowstyle2 {
+    position: relative;
+    right: -590px;
+}
+
 
 .text-container {
     display: flex;
@@ -422,6 +428,13 @@ body{
 }
 
 @media (max-width: 992px) {
+    .donate-container {
+        height: 1000px;
+    }
+    .donate-container h1 {
+        text-align: center;
+        font-size: 35px;
+    }
     .content {
         display: block;
     }
@@ -432,12 +445,16 @@ body{
         margin: 0;
         margin-top: 15px;
     }
-
-    .arrowstyle1, .arrowstyle2 {
-        display: none;
+    .arrowstyle2 {
+        right: -290px;
     }
 }
 
+@media (max-width: 565px) {
+    .arrowstyle2 {
+        position: relative;
+    }
+}
 .left-content h2, .right-content h2 {
     color: #07360F;
     font-family: 'Poppins', sans-serif;
@@ -462,11 +479,6 @@ body{
     margin-top: 25px;
 }
 
-.arrowstyle2 {
-    position: absolute;
-    right: 0;
-}
-
 .contactcontainer {
     display: flex;
     justify-content: center;
@@ -478,22 +490,15 @@ body{
 }
 
 .container-fluid1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
     position: absolute;
     width: 100%;
-    height: 209px;
     left: 0px;
-    top: 4964px;
+    top: 3000px;
     background: #5F9E69;
-}
-
-.container-fluid1 .logocontainer{
-    position: absolute;
-    width: 217px;
-    height: 69px;
-    left: 104px;
-    top: 43px;
-    color: #DEF8E2;
-    line-height: 69px;
 }
 
 .footer-buttons{
@@ -501,37 +506,41 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-    gap: 87px;
-
-    position: absolute;
-    width: 100%;
-    height: 36px;
-    left: 478px;
-    top: 64px;
-
 }
+
 .footer-buttons a{
     font-family: 'Poppins';
-    font-style: normal;
     font-size: 22px;
-    line-height: 36px;
     color: #DEF8E2;
+    text-decoration: none;
+    margin-right: 20px;
 }
+
 .container-fluid2{
     position: absolute;
     width: 100%;
-    height: 50px;
     left: 0px;
-    top: 5123px;
+    top: 3073px;
     text-align: center;
     background: #094513;
 }
+
 .container-fluid2 p{
-    position: relative;
-    top: 15px;
-    font-family: 'Poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #C5CFC7;
+    padding: 10px;
+}
+
+@media (max-width: 992px) {
+    .container-fluid1 {
+        display: block;
+        text-align: center;
+        top: 3700px;
+        padding: 50px;
+    }
+    .container-fluid2{
+        top: 3850px;
+    }
 }
 
 .contactmaincontainer{
