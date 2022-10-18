@@ -316,202 +316,156 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
-    height: 350px;
-    /* background-color: #f5f5e8;  */
-    /* margin-bottom: 200px; */
+    margin-top: 40px;
+    padding: 30px;
 }
 
-.firstinnercontainer {
+.firstinnercontainer, .secondinnercontainer {
     width: 50%;
-    height: 400px;
-    /* background-color: antiquewhite;   */
-    margin-top: 30px;
-}
-
-.secondinnercontainer {
-    width: 50%;
-    height: 400px;
-    /* background-color: cadetblue;   */
-
+    padding: 30px;
 }
 
 .innerstyle {
-    margin-top: 100px;
-    margin-left: 130px;
+    margin: 30px;
     color: #07360F;
-    font-family: 'Noto Serif Display', serif;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 18px;
     font-weight: 600px;
 }
 
 .sidestyle {
-    padding: 10px;
-    line-height: 40px;
-    margin-top: 130px;
-    color: #07360F !important;
-    font-family: 'Noto Serif Display', serif;
+    color: #07360F;
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    line-height: 60px;
+    font-size: 18px;
     font-weight: 400px;
-
 }
 
-.fourthcontainer {
-    width: 100%;
-    height: 650px;
-    background-color: #C4F6CC;
-
+.sidestyle li {
+    list-style-type: none;
+    margin: 20px auto;
 }
 
-.containerA {
-    width: 100%;
-    height: 300px;
-    /* background-color: aqua;   */
 
+@media (max-width: 992px) {
+    .aboutlastcontainer {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .firstinnercontainer, .secondinnercontainer {
+        width: 100%;
+        padding: 20px;
+    }
+    .innerstyle {
+        margin: 10px;
+        margin-right: 10px;
+    }
+    .secondinnercontainer .sidestyle {
+        padding: 0;
+        margin: 0;
+    }
 }
 
-.starstyle {
-    /* display: flex; */
-    /* justify-content: center;
-    justify-items: center; */
-    margin-left: 600px;
-    margin-bottom: 20px;
-    margin-top: 40px;
-
+.donate-container{
+    background: #c4f6cc;
+    padding: 40px 20px 0 20px;
+    height: 100vh;
 }
 
-.donatestyle {
-    color: #07360F;
-    margin: 0px auto;
-    width: 250px;
-    border-radius: 0px, 0px, 1px, 0px;
-    border-style: solid;
-    border-top: 2px;
-    border-left: 2px;
-    border-right: 2px;
-    text-align: center;
-    font-family: 'Noto Serif Display', serif;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    line-height: 60px;
-    font-weight: 600px;
-
+.arrowstyle1 {
+    width: 350px;
+    height: 100px;
 }
 
-.linestyle {
-
-    font-family: 'Noto Serif Display', serif;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 300px;
-    text-align: center;
-
-}
-
-.boldstyle {
-    color: #042309;
-    font-weight: bolder;
-}
-
-.containerB {
-    width: 60%;
-    height: 200px;
-    background-color: #C4F6CC;
-    /* margin-bottom: 70px; */
-
-}
-
-.Astyle {
-    color: #07360F;
-    margin-left: 200px;
-    font-family: 'Noto Serif Display', serif;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 500px;
-}
-
-.Bstyle {
-    color: #175F23;
-    margin-left: 100px;
-    font-family: 'Noto Serif Display', serif;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    line-height: 10px;
-    font-weight: 600px;
-}
-
-.Cstyle {
-    color: #0423098A;
-    margin-left: 100px;
-    font-family: 'Noto Serif Display', serif;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    line-height: 22px;
-    font-weight: 300px;
-}
-
-.arrowstyle {
-    margin-bottom: 100px;
-}
-
-.containerC {
-    /* display: flex; */
-    width: 50%;
-    height: 400px;
-    /* background-color: coral; */
-    /* margin-bottom: 100px; */
-}
-
-.Dstyle {
-    color: #07360F;
-    margin-top: 100px;
-    font-family: 'Noto Serif Display', serif;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 500px;
-
-}
-
-.Estyle {
-    color: #175F23;
-    font-family: 'Noto Serif Display', serif;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    line-height: 10px;
-    font-weight: 600px;
-}
-
-.Fstyle {
-    color: #0423098A;
-    font-family: 'Noto Serif Display', serif;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    line-height: 22px;
-    font-weight: 300px;
-}
-
-.arrowstylee {
-    margin-left: 400px;
-    margin-top: 30px;
-}
-
-.containerD {
+.text-container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    /* justify-content: center;  */
-    width: 100%;
-    height: 300px;
-    /* background-color: #d6d60b;  */
-    margin-bottom: 200px;
+    flex-wrap: wrap;
 }
 
+.text-container h1 {
+    color: #07360F;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 60px;
+    padding: 10px 40px;
+    border-bottom: 3px solid #07360F;
+}
+
+.text-container .brief {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.left-content {
+    text-align: right;
+}
+
+.left-content, .right-content {
+    width: 45%;
+    padding: 0 20px;
+}
+
+@media (max-width: 992px) {
+    .content {
+        display: block;
+    }
+    .left-content, .right-content {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .arrowstyle1, .arrowstyle2 {
+        display: none;
+    }
+}
+
+.left-content h2, .right-content h2 {
+    color: #07360F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.left-content a, .right-content a {
+    color: #0000ff;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    line-height: 10px;
+}
+
+.left-content div, .right-content div {
+    color: #0423098A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 25px;
+}
+
+.arrowstyle2 {
+    position: absolute;
+    right: 0;
+}
 
 .contactcontainer {
     display: flex;
@@ -529,9 +483,9 @@ body{
     height: 209px;
     left: 0px;
     top: 4964px;
-
     background: #5F9E69;
- }
+}
+
 .container-fluid1 .logocontainer{
     position: absolute;
     width: 217px;
