@@ -22,7 +22,7 @@
         </div>
         <div class="menuContainer">
           <ul>
-            <li><a href="#mainContainer">Home</a></li>
+            <li id="inactive"><a href="#mainContainer">Home</a></li>
             <li><a href="#secondmaincontainer">About</a></li>
             <li><a href="#fourthcontainer">Donation</a></li>
             <li><a href="#FAQcontainer">FAQs</a></li>
@@ -304,7 +304,10 @@
     }
   }
 
-
+  let inactive = document.getElementById("inactive");
+  inactive.addEventListener("click", function(event){
+    event.preventDefault()
+})
 
 </script>
 
