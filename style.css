@@ -418,10 +418,6 @@ body{
     padding: 5px;
 }
 
-.left-content {
-    text-align: right;
-}
-
 .left-content, .right-content {
     width: 45%;
     padding: 0 20px;
