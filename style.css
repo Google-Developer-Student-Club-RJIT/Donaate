@@ -380,8 +380,8 @@ body{
 }
 
 .arrowstyle2 {
-    position: relative;
-    right: -590px;
+    position: absolute;
+    right: 0;
 }
 
 
@@ -445,16 +445,8 @@ body{
         margin: 0;
         margin-top: 15px;
     }
-    .arrowstyle2 {
-        right: -290px;
-    }
 }
 
-@media (max-width: 565px) {
-    .arrowstyle2 {
-        position: relative;
-    }
-}
 .left-content h2, .right-content h2 {
     color: #07360F;
     font-family: 'Poppins', sans-serif;
@@ -493,11 +485,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 70px;
     position: absolute;
     width: 100%;
     left: 0px;
-    top: 3000px;
+    top: 3500px;
     background: #5F9E69;
 }
 
@@ -520,7 +512,7 @@ body{
     position: absolute;
     width: 100%;
     left: 0px;
-    top: 3073px;
+    top: 3570px;
     text-align: center;
     background: #094513;
 }
@@ -535,11 +527,11 @@ body{
     .container-fluid1 {
         display: block;
         text-align: center;
-        top: 3700px;
+        top: 4200px;
         padding: 50px;
     }
     .container-fluid2{
-        top: 3850px;
+        top: 4350px;
     }
 }
 
