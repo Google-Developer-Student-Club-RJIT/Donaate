@@ -36,10 +36,14 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
+    height: 1px;
     justify-content: space-between;
     padding: 2rem 1rem;
-
+    position: fixed;
+    top: 0;
+    background: #C4F6CC;
+    opacity: 5;
+    z-index: 2;
 }
 
 .logoContainer {
