@@ -343,6 +343,35 @@ body{
     /* background-color: cadetblue;   */
 
 }
+.circle{
+    display: flex;
+
+}
+.ellipse-1{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 1555px;
+    left: 700px;
+
+
+}
+.ellipse-2{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 1615px;
+    left: 700px;
+    
+}
+.ellipse-3{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 1675px;
+    left:700px ;
+    
+}
 
 .innerstyle {
     margin-top: 100px;
