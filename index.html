@@ -243,9 +243,8 @@
 
     <script type="text/javascript">
       document.getElementById("button").onclick=(event)=>{
-        let k = document.getElementById("paragraph")
-
-        if (k.style.display==="none"){
+        let k = document.getElementById("paragraph");
+        if (window.getComputedStyle(k).display === "none"){
           k.style.display="block";
           document.getElementById("button").innerHTML="-";
         } else{
@@ -257,7 +256,7 @@
       document.getElementById("btn-2").onclick=(event)=>{
         let k = document.getElementById("paragraph-2")
 
-        if (k.style.display==="none"){
+        if (window.getComputedStyle(k).display === "none"){
           k.style.display="block";
           document.getElementById("btn-2").innerHTML="-";
         } else{
@@ -269,7 +268,7 @@
       document.getElementById("btn-3").onclick=(event)=>{
         let k = document.getElementById("paragraph-3")
 
-        if (k.style.display==="none"){
+        if (window.getComputedStyle(k).display === "none"){
           k.style.display="block";
           document.getElementById("btn-3").innerHTML="-";
         } else{
