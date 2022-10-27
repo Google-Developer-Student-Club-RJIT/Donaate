@@ -348,7 +348,7 @@ body{
 
 .sidestyle li {
     list-style-type: none;
-    margin: 20px auto;
+    margin: 20px 10px;
 }
 
 
@@ -371,6 +371,17 @@ body{
         margin: 0;
     }
 }
+.circle{
+    display: flex;
+}
+.ellipse{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 20px;
+
+}
+
 
 .donate-container{
     background: #c4f6cc;
@@ -489,7 +500,7 @@ body{
     position: absolute;
     width: 100%;
     left: 0px;
-    top: 3500px;
+    top: 3300px;
     background: #5F9E69;
 }
 
@@ -512,7 +523,7 @@ body{
     position: absolute;
     width: 100%;
     left: 0px;
-    top: 3570px;
+    top: 3370px;
     text-align: center;
     background: #094513;
 }
