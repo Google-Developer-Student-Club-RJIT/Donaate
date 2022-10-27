@@ -26,7 +26,7 @@ body{
 .mainContainer {
     width: 100%;
     height: 700px;
-    background-color: #C4F6CC;
+    background-color: #046915;
 }
 
 .navContainer {
@@ -39,7 +39,7 @@ body{
     padding: 2rem 1rem;
     position: fixed;
     top: 0;
-    background: #C4F6CC;
+    background: #035310;
     opacity: 5;
     z-index: 2;
 }
@@ -61,7 +61,7 @@ body{
 .imgStyle {
     width: 150px;
     height: auto;
-    filter: drop-shadow(0 0 0 #5F9E69);
+    filter: drop-shadow(0 0 0 #fefffe);
 }
 
 .menuContainer {
@@ -87,13 +87,13 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     text-decoration: none;
-    color: black;
+    color: rgb(251, 247, 247);
     font-size: 1.2rem;
     padding: 7px;
 }
 
 .menuContainer li a:hover {
-    color: #5F9E69;
+    color: #9cfdac;
 }
 
 /* second main div */
@@ -114,6 +114,7 @@ body{
     flex-direction: column;
     align-items: flex-end;
     padding: 10px;
+    background-color: #C4F6CC;
 }
 
 .tagLineContainer {
@@ -168,7 +169,7 @@ body{
 }
 
 .button:hover {
-    background-color: #5F9E69;
+    background-color: #022407;
     font-weight: bold;
 }
 
@@ -226,9 +227,9 @@ body{
 }
 
 .aboutheadcontainer {
-    /* display: flex; 
+    display: flex; 
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     width: 50%;
     height: 200px;
     /* background-color: #87e111;  */
@@ -237,20 +238,20 @@ body{
 }
 
 .aboutcontentcontainer {
-    /* display: flex; */
+    display: flex;
     width: 50%;
     height: 200px;
-    /* background-color: #1d9e9c;  */
-    /* margin-left: 100px;  */
+    /* background-color: #1d9e9c;   */
+    margin-left: 100px; 
     margin-bottom: 40px;
 }
 
 .headstyle {
     margin-top: 100px;
     margin-left: 100px;
-    /* justify-content: center; */
+    justify-content: center;
     color: #07360F;
-    /* text-shadow: 1px 0px #07360F; */
+    text-shadow: 1px 0px #07360F;
     font-family: 'Noto Serif Display', serif;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -271,7 +272,7 @@ body{
     font-size: 20px;
     line-height: 20px;
 
-    ;
+    
 }
 
 .imagecontainer {
@@ -374,7 +375,8 @@ body{
 
 .donate-container{
     background: #c4f6cc;
-    padding: 40px 20px 0 20px;
+    background-image: url("/Donaate-UI/Images/volunteer-g6da6c80f0_1920.png");
+    padding: 0px 20px 0 20px;
     height: 100vh;
 }
 
@@ -390,11 +392,15 @@ body{
 
 
 .text-container {
+    height: 300px;
+    background-color: #9cfdac;
+    padding-left: 0%;
+    padding-top: 0%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .text-container h1 {
@@ -403,7 +409,7 @@ body{
     font-family: 'Poppins', sans-serif;
     line-height: 60px;
     padding: 10px 40px;
-    border-bottom: 3px solid #07360F;
+    border-bottom: 3px solid #fdfefd;
 }
 
 .text-container .brief {
@@ -412,6 +418,9 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 20px;
+    color: #000;
+    padding-bottom: 20px;
+    padding-left: 0px;
 }
 
 .content {
@@ -430,6 +439,7 @@ body{
 @media (max-width: 992px) {
     .donate-container {
         height: 1000px;
+        background-color: #b1ffbe;
     }
     .donate-container h1 {
         text-align: center;
@@ -475,7 +485,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: rgb(116, 250, 151);
     width: 100%;
     padding:'20px';
     height: 400px;
@@ -490,7 +500,7 @@ body{
     width: 100%;
     left: 0px;
     top: 3500px;
-    background: #5F9E69;
+    background: #0d771f;
 }
 
 .footer-buttons{
@@ -519,7 +529,7 @@ body{
 
 .container-fluid2 p{
     font-family: 'Poppins', sans-serif;
-    color: #C5CFC7;
+    color: #ffffff;
     padding: 10px;
 }
 
@@ -541,7 +551,7 @@ body{
 .greenbox {
     width:90%;
     height:auto;
-    background-color:#C4F6CC;
+    background-color:#055212;
     border-radius: 20pt;
 }
 
@@ -555,7 +565,7 @@ body{
     font-size: 35px;
     font-weight: 600px;
     line-height: 100px;
-    color: #07360F;
+    color: #ffffff;
     justify-content: center;
     align-items: top;
     display: flex;
@@ -577,7 +587,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600px;
-    color: #5F9E69;
+    color: #f9fdfa;
     ;
 }
 
@@ -589,7 +599,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500px;
-    color: #042309;
+    color: #f0f8f2;
     text-align: center;
     line-height: 60px;
 }
@@ -607,7 +617,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600px;
-    color: #5F9E69;
+    color: #fcfffd;
 }
 
 .subcontainer2 {
@@ -619,7 +629,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600px;
-    color: #042309;
+    color: #edf7ef;
     text-align: center;
     line-height: 60px;
 
@@ -640,7 +650,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600px;
-    color: #042309;
+    color: #f7f9f8;
     text-align: center;
     line-height: 60px;
 
@@ -659,13 +669,14 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600px;
-    color: #5F9E69;
+    color: #fcfffd;
 
 }
 
 
 .faq{
     display:flex ;
+    background-color:rgb(116, 250, 151) ;
         
 }
 .FAQ{
@@ -674,7 +685,6 @@ body{
     font-size: 100%;
     margin-top: 100px;
     margin-left: 100px;
-    
     font-family:'Poppins';
 
 }
@@ -736,4 +746,14 @@ margin-right: 10px;
      cursor: pointer;
      font-size: 40px;
 
+}
+
+.icon{
+    width: 70px;
+    height: 50px;
+    padding-right: 20px;
+    
+}
+.img-container{
+    background-color: #9cfdac;
 }
