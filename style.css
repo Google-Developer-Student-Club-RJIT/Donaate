@@ -355,6 +355,14 @@ body {
         left: -2rem;
         object-fit: cover;
     }
+    
+    .menuContainer {
+        margin-top: 1rem;
+    }
+    
+    .logoContainer {
+        margin-left: 1.8rem;
+    }
 }
 .circle{
     display: flex;
