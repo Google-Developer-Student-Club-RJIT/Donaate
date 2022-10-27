@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donaate</title>
+    <link rel="icon" type="image/x-icon" href="/Donaate-UI/Favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Passion+One:wght@700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -85,6 +86,7 @@
             </div>
         </section>
 
+feature
         <div class="aboutlastcontainer" id="donate">
             <div class="firstinnercontainer">
                 <div class="innerstyle">
@@ -112,6 +114,46 @@
                 </ul>
             </div>
         </div>
+
+    <div class="aboutlastcontainer" id="donate">
+      <div class="firstinnercontainer">
+        <div class="innerstyle">
+          <h1>Donations are used to help children in following ways:</h1>
+        </div>
+      </div>
+      <div class="secondinnercontainer">
+        <ul class="sidestyle">
+          <div class="circle">
+            <img class="ellipse" src="Donaate-UI/Ellipse 1.png" alt="">
+            <li  style="line-height:95%" color: #07360F>
+            To provide them basic necessities like 
+            <strong>food, clothes</strong> 
+            and 
+            <strong>shelter.</strong> 
+          </li>
+          </div>
+
+          <div class="circle"> 
+            <img class="ellipse" src="Donaate-UI/Ellipse 1.png" alt="">
+            <li  style="line-height:95%" color:#07360F>
+            To help them to get access to 
+            <strong>education</strong> 
+            and 
+            <strong>health care.</strong> 
+          </li>
+          </div>
+
+          <div class="circle">
+          <img class="ellipse" src="Donaate-UI/Ellipse 1.png" alt="">
+          <li  style="line-height:95%" color: #07360F>
+            To provide them with 
+            <strong>livelihood opportunities</strong> 
+            so that they can earn a dignified living.
+          </li>
+        </ul>
+      </div>
+    </div>
+ main
 
         <!-- about section ends here -->
 
@@ -259,6 +301,7 @@
     </div>
 
     <script type="text/javascript">
+ feature
         document.getElementById("button").onclick = (event) => {
             let k = document.getElementById("paragraph")
 
@@ -269,11 +312,22 @@
                 k.style.display = "none";
                 document.getElementById("button").innerHTML = "+";
             }
+
+      document.getElementById("button").onclick=(event)=>{
+        let k = document.getElementById("paragraph");
+        if (window.getComputedStyle(k).display === "none"){
+          k.style.display="block";
+          document.getElementById("button").innerHTML="-";
+        } else{
+          k.style.display="none";
+          document.getElementById("button").innerHTML="+";  
+ main
         }
 
         document.getElementById("btn-2").onclick = (event) => {
             let k = document.getElementById("paragraph-2")
 
+ feature
             if (k.style.display === "none") {
                 k.style.display = "block";
                 document.getElementById("btn-2").innerHTML = "-";
@@ -281,11 +335,20 @@
                 k.style.display = "none";
                 document.getElementById("btn-2").innerHTML = "+";
             }
+
+        if (window.getComputedStyle(k).display === "none"){
+          k.style.display="block";
+          document.getElementById("btn-2").innerHTML="-";
+        } else{
+          k.style.display="none";
+          document.getElementById("btn-2").innerHTML="+";
+ main
         }
 
         document.getElementById("btn-3").onclick = (event) => {
             let k = document.getElementById("paragraph-3")
 
+ feature
             if (k.style.display === "none") {
                 k.style.display = "block";
                 document.getElementById("btn-3").innerHTML = "-";
@@ -293,6 +356,14 @@
                 k.style.display = "none";
                 document.getElementById("btn-3").innerHTML = "+";
             }
+
+        if (window.getComputedStyle(k).display === "none"){
+          k.style.display="block";
+          document.getElementById("btn-3").innerHTML="-";
+        } else{
+          k.style.display="none";
+          document.getElementById("btn-3").innerHTML="+";
+ main
         }
     </script>
 

@@ -333,7 +333,7 @@ body {
 
 .sidestyle li {
     list-style-type: none;
-    margin: 20px auto;
+    margin: 20px 10px;
 }
 
 @media (max-width: 500px) {
@@ -356,6 +356,17 @@ body {
         object-fit: cover;
     }
 }
+.circle{
+    display: flex;
+}
+.ellipse{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 20px;
+
+}
+
 
 .poetName>p {
     display: flex;
@@ -514,7 +525,11 @@ body {
     /* position: absolute; */
     width: 100%;
     left: 0px;
+ feature
     /* top: 3500px; */
+
+    top: 3300px;
+ main
     background: #5F9E69;
 }
 
@@ -537,7 +552,11 @@ body {
     /* position: absolute; */
     width: 100%;
     left: 0px;
+ feature
     /* top: 3570px; */
+
+    top: 3370px;
+ main
     text-align: center;
     background: #094513;
 }
