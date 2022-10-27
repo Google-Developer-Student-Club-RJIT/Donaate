@@ -348,7 +348,7 @@ body{
 
 .sidestyle li {
     list-style-type: none;
-    margin: 20px auto;
+    margin: 20px 10px;
 }
 
 
@@ -373,39 +373,15 @@ body{
 }
 .circle{
     display: flex;
-    padding-right: 0px;
-}
-.circle-1{
-    display: flex;
-    padding-right: 55px;
-
-}
-.circle-2{
-    display: flex;
-    padding-left: 35px;
 }
 .ellipse{
-  position: absolute;
+  position: relative;
   width: 30px;
   height: 30px;
-  top: 1565px;
-  left: 750px;
+  top: 20px;
 
 }
-.ellipse-1{
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  left: 750px;
-  top: 1622px;
-}
-.ellipse-2{
-    position: absolute;
-   width: 30px;
-   height: 30px;
-   left: 750px;
-   top: 1685px;
-}
+
 
 .donate-container{
     background: #c4f6cc;
@@ -524,7 +500,7 @@ body{
     position: absolute;
     width: 100%;
     left: 0px;
-    top: 3500px;
+    top: 3300px;
     background: #5F9E69;
 }
 
@@ -547,7 +523,7 @@ body{
     position: absolute;
     width: 100%;
     left: 0px;
-    top: 3570px;
+    top: 3370px;
     text-align: center;
     background: #094513;
 }
