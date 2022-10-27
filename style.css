@@ -19,7 +19,7 @@ body {
 
 .mainContainer {
     width: 100%;
-    height: 700px;
+    height: 42rem;
     background-color: #C4F6CC;
 }
 
@@ -43,7 +43,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 20%;
-    height: 'auto';
+    height: auto;
     padding: 10px;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .imgStyle {
-    width: 150px;
+    width: 10rem;
     height: auto;
     filter: drop-shadow(0 0 0 #5F9E69);
 }
@@ -70,7 +70,7 @@ body {
 
 .menuContainer ul li {
     float: left;
-    margin-left: 50px;
+    margin-left: 3rem;
     list-style: none;
     color: black;
     font-size: 1rem;
@@ -100,7 +100,7 @@ body {
     width: 100%;
     height: 85%;
     /* background-color: #87e111; */
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .quoteContainer {
@@ -133,8 +133,7 @@ body {
     font-size: 2rem;
     color: #07360F;
     font-weight: 600;
-    margin: 1rem 2rem;
-    margin-top: 31px;
+    margin: 2rem 1rem 2rem;
     line-height: 50px;
 }
 
@@ -203,7 +202,7 @@ body {
 
 .secondmaincontainer {
     width: 100%;
-    height: 1100px;
+    height: 100%;
     background-color: #def8e3;
 }
 
@@ -212,7 +211,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 250px;
+    height: 100%;
     /* background-color: #f4bf11;   */
 }
 
@@ -220,16 +219,16 @@ body {
     /* display: flex; 
     align-items: center;
     justify-content: center; */
-    width: 50%;
-    height: 200px;
+    width: 100vw;
+    height: 100%;
     /* background-color: #87e111;  */
     margin-bottom: 40px;
 }
 
 .aboutcontentcontainer {
     /* display: flex; */
-    width: 50%;
-    height: 200px;
+    width: 100vw;
+    height: 100%;
     /* background-color: #1d9e9c;  */
     /* margin-left: 100px;  */
     margin-bottom: 40px;
@@ -237,7 +236,7 @@ body {
 
 .headstyle {
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 3.5em;
     /* justify-content: center; */
     color: #07360F;
     /* text-shadow: 1px 0px #07360F; */
@@ -250,23 +249,22 @@ body {
 
 .contentstyle {
     margin-top: 150px;
-    margin-right: 80px;
-    justify-content: center;
-    display: flex;
+    margin-right: 3.5em;
+    /* justify-content: center;
+    display: flex; */
     color: #07360F;
     font-family: 'Noto Serif Display', serif;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     line-height: 20px;
-    ;
 }
 
 .imagecontainer {
     display: flex;
     justify-content: center;
-    /* background-color: blueviolet;   */
+    /* background-color: blueviolet; */
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 
 .imagebox {
@@ -338,25 +336,63 @@ body {
     margin: 20px auto;
 }
 
-@media (max-width: 992px) {
-    .aboutlastcontainer {
-        width: 100%;
-        display: block;
-        text-align: center;
+@media (max-width: 500px) {
+    .button {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        margin-left: 2.5rem;
     }
-    .firstinnercontainer,
-    .secondinnercontainer {
-        width: 100%;
-        padding: 20px;
+    .pictureContainer>img {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
-    .innerstyle {
-        margin: 10px;
-        margin-right: 10px;
+}
+
+@media (max-width:450px) {
+    .pictureContainer>img {
+        height: 32rem;
+        left: -2rem;
+        object-fit: cover;
     }
-    .secondinnercontainer .sidestyle {
-        padding: 0;
-        margin: 0;
-    }
+}
+
+.poetName>p {
+    display: flex;
+    justify-content: center;
+}
+
+.tagLineContainer--desc {
+    width: 100%;
+}
+
+.pictureContainer>img {
+    width: 100%;
+    display: flex;
+    background-image: url("./Donaate-UI/hero.png");
+    justify-content: center;
+}
+
+.aboutlastcontainer {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.firstinnercontainer,
+.secondinnercontainer {
+    width: 100%;
+    padding: 20px;
+}
+
+.innerstyle {
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.secondinnercontainer .sidestyle {
+    padding: 0;
+    margin: 0;
 }
 
 .donate-container {
@@ -403,30 +439,23 @@ body {
 .content {
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     justify-content: space-evenly;
-    /* flex-wrap: wrap;   
-    align-items: center; */
-    /* gap: 20px;
-    justify-content: space-around; */
-    /* padding: 33px; */
 }
 
 .left-content,
 .right-content {
     padding: 0 20px;
+    margin-bottom: 15px;
 }
 
 @media (max-width: 992px) {
     .donate-container {
-        height: 1000px;
+        height: 100%;
     }
     .donate-container h1 {
         text-align: center;
-        font-size: 35px;
-    }
-    .content {
-        display: block;
+        font-size: 2rem;
     }
     .left-content,
     .right-content {
@@ -473,6 +502,8 @@ body {
     width: 100%;
     padding: '20px';
     height: 400px;
+    margin-top: 6rem;
+    margin-bottom: 20rem;
 }
 
 .container-fluid1 {
@@ -480,10 +511,10 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 70px;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     left: 0px;
-    top: 3500px;
+    /* top: 3500px; */
     background: #5F9E69;
 }
 
@@ -503,10 +534,10 @@ body {
 }
 
 .container-fluid2 {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     left: 0px;
-    top: 3570px;
+    /* top: 3570px; */
     text-align: center;
     background: #094513;
 }
@@ -515,18 +546,6 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #C5CFC7;
     padding: 10px;
-}
-
-@media (max-width: 992px) {
-    .container-fluid1 {
-        display: block;
-        text-align: center;
-        top: 4200px;
-        padding: 50px;
-    }
-    .container-fluid2 {
-        top: 4350px;
-    }
 }
 
 .contactmaincontainer {
@@ -717,4 +736,113 @@ body {
     border: none;
     cursor: pointer;
     font-size: 40px;
+}
+
+@media (max-width: 992px) {
+    .mainContainer {
+        display: flex;
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+    .tagLineContainer--desc {
+        margin-top: 5rem;
+        width: 100%;
+    }
+    .tagLineContainer--invcomma {
+        position: absolute;
+        z-index: -1;
+        display: block;
+        margin: 2em;
+        margin-left: -12px;
+    }
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .faq {
+        background-color: white;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .FAQ {
+        text-align: center;
+        width: 100%;
+        margin: -16rem 0 0 0.5em;
+    }
+    .question {
+        text-align: center;
+        margin: 10rem 0 0 8em;
+    }
+    .question-2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: -2rem;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    .fullaboutcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .aboutheadcontainer {
+        text-align: center;
+        width: 100%;
+        margin: 0 0 0 -5em;
+    }
+    .aboutcontentcontainer {
+        text-align: center;
+        margin-top: -5em;
+        width: 100%;
+        margin-left: 5em;
+    }
+    .imagebox {
+        margin: 0;
+        height: fit-content;
+    }
+    .contactcontainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .subcontainer1,
+    .subcontainer2,
+    .subcontainer3 {
+        max-width: 100%;
+    }
+    .numberstyle,
+    .emailstyle,
+    .socialstyle {
+        flex-wrap: wrap;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width:450px) {
+    .mainContainer {
+        width: 100%;
+    }
+    .secondmaincontainer {
+        width: 100%;
+    }
+    .container-fluid1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .container-fluid2 {
+        width: 100%;
+    }
+    .imagecontainer {
+        margin-left: 0.5rem;
+    }
 }
