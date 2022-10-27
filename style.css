@@ -371,6 +371,41 @@ body{
         margin: 0;
     }
 }
+.circle{
+    display: flex;
+    padding-right: 0px;
+}
+.circle-1{
+    display: flex;
+    padding-right: 55px;
+
+}
+.circle-2{
+    display: flex;
+    padding-left: 35px;
+}
+.ellipse{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 1565px;
+  left: 750px;
+
+}
+.ellipse-1{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 750px;
+  top: 1622px;
+}
+.ellipse-2{
+    position: absolute;
+   width: 30px;
+   height: 30px;
+   left: 750px;
+   top: 1685px;
+}
 
 .donate-container{
     background: #c4f6cc;
