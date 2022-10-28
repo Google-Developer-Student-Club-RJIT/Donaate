@@ -374,7 +374,7 @@ body {
 .donate-container {
     background: #c4f6cc;
     padding: 40px 20px 0 20px;
-    height: 100vh;
+    height: max-content;
 }
 
 .arrowstyle1 {
@@ -383,8 +383,8 @@ body {
 }
 
 .arrowstyle2 {
-    position: absolute;
-    right: 0;
+    position: relative;
+    left: calc(100% - 148px);
 }
 
 .text-container {
