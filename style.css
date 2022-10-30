@@ -7,7 +7,7 @@
 * {
     padding: 0;
     margin: 0;
-    /* text-decoration: none; */
+    scroll-behavior: smooth;
     list-style: none;
     box-sizing: border-box;
 }
