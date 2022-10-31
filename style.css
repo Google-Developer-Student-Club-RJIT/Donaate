@@ -503,9 +503,9 @@ body {
 
 .container-fluid1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 20px 70px;
+   padding: 20px;
     position: absolute;
     width: 100%;
     left: 0px;
@@ -515,9 +515,15 @@ body {
 
 .footer-buttons {
     display: flex;
+    
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    
+}
+.footer-buttons :hover{
+    padding: auto;
+    border-radius: 5px;
+    color: #C4F6CC;
 }
 
 .footer-buttons a {
@@ -560,8 +566,9 @@ body {
 }
 
 .greenbox {
-    width: 90%;
+    width: 80%;
     height: auto;
+    margin-top: 150px;
     background-color: #C4F6CC;
     border-radius: 20pt;
 }
@@ -580,7 +587,7 @@ body {
     justify-content: center;
     align-items: top;
     display: flex;
-    ;
+    
 }
 
 .container2 {
