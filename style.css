@@ -745,6 +745,31 @@ body {
     font-size: 40px;
 }
 
+/* Custom Scrollbar */
+
+::-webkit-scrollbar{
+    width: 1em;
+
+}
+
+::-webkit-scrollbar-track{
+    background-color: #BCFCC6;
+    border-radius: 5px;
+    box-shadow:inset 0 0 5px #094513;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #5F9E69;
+    border-radius: 5px;
+    outline: 1px solid #094513;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #094513;
+    width: 15px;
+    border-radius: 3px;
+}
+
 /* scroll to top feature css   */
 #btn-back-to-top {
   position: fixed;
@@ -778,5 +803,4 @@ body {
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)";
 }
-
 
